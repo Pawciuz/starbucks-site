@@ -404,11 +404,23 @@ footer a:first-of-type{
     text-decoration: none;
 }
 @media only screen and (max-width: 1026px) {
+    .constImage:after{
+        background: none;
+    }
     .constImage {
-        display: none;
+        float:right;
+        width:100%;
+        clear:both;
+        position:static;    
+        height:500px;
+    }
+    #constImageButton{
+        color:black;
+        border:1px solid black;
     }
     main{
         width:100%;
+        clear:both;
     }
     footer{
         width: 100%;
